@@ -8,11 +8,12 @@
 
 void delay(int number_of_seconds) {
   // Converting time into milli_seconds
-  int milli_seconds = 1000 * number_of_seconds;
+  int milli_seconds = CLOCKS_PER_SEC * number_of_seconds / 1000;
   // Storing start time
   clock_t start_time = clock();
   // looping till required time is not achieved
-  while (clock() < start_time + milli_seconds) ; }
+  while (clock() < start_time + milli_seconds); 
+}
 
 int combSort(int i, int j, int listToSort[], int size, int userDelay) {
 
