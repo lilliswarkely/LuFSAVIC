@@ -1,7 +1,7 @@
 /*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_- 
 * Luna's First Sorting Algorithm Visualizer in C
 * 
-* 2021/09/15 - LuF-SAVIC V0.0.7 Pre-Alpha
+* 2021/09/16 - LuF-SAVIC V0.0.8 Pre-Alpha
 *
 * Bugs may be present
 *
@@ -26,7 +26,9 @@
 
 int main(void) {
   
-  printf("\n\nLuF-SAVIC V0.0.7 PreAlpha (This is the PreAlpha version so bugs may be present. Very early in Developement.)");
+  printf("\n\nLuF-SAVIC V0.0.8 PreAlpha (This is the PreAlpha version so bugs may be present. Very early in Developement.)");
+int foreverLoop = 0;  
+while(foreverLoop == 0) {
   int userInput;
   int a;
   int shuffleType;
@@ -152,6 +154,7 @@ int main(void) {
   } else if(sortChosen == 9) {
     selectionSort(i, j, mainList, userInput, userDelay);
   } 
+}
   return 0;
 }
 
