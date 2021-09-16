@@ -1,0 +1,11 @@
+void selectionSort(int i, int j, int toSort[], int size, int delay);
+void callStoogeRecurse(int i, int j, int toSort[], int userDelay, int size);
+void stooge(int i, int j, int toSort[], int userDelay, int size);
+int bubbleSort(int i, int j, int listToSort[], int size, int userDelay);
+int sandPaperSort(int i, int j, int listToSort[], int size, int userDelay);
+int reverseSandPaperSort(int i, int j, int listToSort[], int size, int userDelay);
+int oddEvenSort(int i, int j, int listToSort[], int size, int userDelay);
+int cocktailSort(int i, int j, int listToSort[], int size, int userDelay);
+int combSort(int i, int j, int listToSort[], int size, int userDelay);
+int grateSort(int i, int j, int listToSort[], int size, int userDelay);
+void gnomeSort(int i, int j, int listToSort[], int size, int userDelay);
